@@ -1,0 +1,166 @@
+body {
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #373737;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20pt;
+    color: #ffffff;
+    margin: 0% 10%;
+    padding: 20px 40px;
+    border-radius: 12px;
+}
+
+.bigbox{ 
+    position: relative;
+    margin: 2% 10%;
+   
+}
+
+.errorMessage {
+    font-family: Arial;
+    font-size: 12pt;
+    color: darkred;
+}
+
+p {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 16pt;
+    color: #373737;
+}
+
+.login {
+    position: absolute;
+    left: 0;
+    right: 50%;
+
+    padding: 2%;
+    border-radius: 12px;
+    margin-right: 1%;
+
+    background-color: #E7717D;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 16pt;
+    color: #373737;
+}
+
+.register {
+    position: absolute;
+    right: 0;
+    left: 50%;
+
+    padding: 2%;
+    border-radius: 12px;
+    margin-left: 1%;
+
+    background-color: #E7717D;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 16pt;
+    color: #373737;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input[type=password]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.submitbtn {
+    width: 20%;
+    height: 4%;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 8px 12px;
+    background-color: #373737;
+    color: #ffffff;
+    border: none;
+    font-family: Arial;
+}
+
+input[type=submit]:hover {
+    background-color: #E7717D;
+}
+
+textarea {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+
+    font-family: Arial;
+}
+
+label {
+    color: #373737;
+    font-family: 'Arial';
+    font-size: 12pt;
+}
+
+.welcome{
+    position: relative;
+    margin: 2% 10%;
+    padding: 2%;
+    border-radius: 12px;
+
+    background-color: #E7717D;
+}
+
+.logout {
+    position: absolute;
+    right: 2%;
+    top: 0;
+
+    margin: 1%;
+}
+
+.comments {
+    position: absolute;
+    left: 0;
+    right: 50%;
+
+    margin-right: 1%;
+    padding: 2%;
+    border-radius: 12px;
+
+    background-color: #E7717D;
+}
+
+.posts{
+    position: absolute;
+    right: 0;
+    left: 50%;
+
+    margin-left: 1%;
+    padding: 2%;
+    border-radius: 12px;
+
+    background-color: #E7717D;   
+}
+
+.postName{
+    position: relative;
+    font-family: arial;
+    font-size: 11pt;
+
+}
+
+.postComment {
+    position: relative;
+    background-color: #ffffff;
+    padding: 2%;
+    border-radius: 12px;
+    margin-bottom: 1%;
+    font-family: arial;
+    font-size: 11pt;
+}
+
